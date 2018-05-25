@@ -1,0 +1,47 @@
+html{
+    background: linear-gradient(to bottom, #7e57c2, #cfff95) no-repeat;
+    background-size: 400%;
+}
+
+h1.fort {
+    margin-top: 60px;
+    font-family: BurbankBigCondensed-Bold;
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-align: center;
+    background-color: hsla(120,100%,75%,0.3);
+    font-family: Neoteric;
+    font-size: 18px;
+    margin-left: 510px;
+    margin-right: 510px;
+    line-height: 30px;
+}
+
+#menu{
+
+}
+#menu ul li {
+    display: inline-block;
+
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+
+<!-- Problemas
+     tamanho do lineargradient,
+     background do título,
+     união do título e o menu   -->
