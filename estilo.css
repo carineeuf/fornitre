@@ -1,9 +1,10 @@
 html{
     background: linear-gradient(to bottom, #7e57c2, #cfff95) no-repeat;
-    background-size: 400%;
+    background-size: auto;
+
 }
 
-h1.fort {
+  h1.fort {
     margin-top: 60px;
     font-family: BurbankBigCondensed-Bold;
     font-size: 55px;
@@ -18,25 +19,55 @@ h1.fort {
     border: 0;
     list-style: none;
     text-align: center;
-    background-color: hsla(120,100%,75%,0.3);
-    font-family: Neoteric;
-    font-size: 18px;
+    background-color: hsla(100,100%,75%,0.2);
+    font-family: 'Syncopate', sans-serif;
+    font-size: 13.5px;
     margin-left: 510px;
     margin-right: 510px;
-    line-height: 30px;
+    line-height: 25px;
+    position: relative;
+    top: -40px;
 }
 
-#menu{
-
-}
 #menu ul li {
     display: inline-block;
-
+    margin: 5px;
 }
+#img {
+    background-image: url(fornite-character.png);
+    background-position: right bottom;
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+#img2{
+    background-image: url("png(2).png");
+    background-position: left bottom;
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+main.div{
+    margin-right: auto;
+    margin-left: auto;
+    width: 570px;
+    height: 600px;
+    padding: 0;
+    border: 0;
+    background-color: white;
+}
+
+p::first-letter {
+    color: #ffeb3b;
+    font-size: 50px;
+    font-family: 'Black Han Sans';
+    font-style: oblique;
+}
+
 a:link{
     color: white;
     text-decoration: none;
 }
+
 a:visited{
     color: white;
 }
