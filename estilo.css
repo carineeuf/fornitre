@@ -3,10 +3,15 @@ html{
     background-size: auto;
 
 }
-
+@font-face
+{
+    font-family: 'burbank';
+    src: url('https://googledrive.com/host/150EKHOh5a5Q1KI1D_5lb4sxmuU20gRNK/BurbankBigCondensed-Bold.otf');
+}
+    
   h1.fort {
     margin-top: 60px;
-    font-family: BurbankBigCondensed-Bold;
+    font-family: burbank;
     font-size: 55px;
     color: white;
     text-align: center;
