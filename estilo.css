@@ -11,7 +11,7 @@ html{
     
   h1.fort {
     margin-top: 60px;
-    font-family: burbank;
+    font-family: BurbankBigCondensed-Bold;
     font-size: 55px;
     color: white;
     text-align: center;
@@ -19,7 +19,7 @@ html{
 }
 
 #teste{
- font-family: burbank;   
+ font-family: BurbankBigCondensed-Bold;   
 }
 
 #menu ul {
