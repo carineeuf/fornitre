@@ -1,17 +1,17 @@
 html{
     background: linear-gradient(to bottom, #7e57c2, #cfff95) no-repeat;
-    background-size: auto;
+	height: 100%;
 
 }
-@font-face
-{
-    font-family: burbank;
-    src: url('BurbankBigCondensed-Bold.otf') format("opentype");
+
+@font-face{
+    font-family: 'burbank';
+    src: url('BurbankBigCondensed-Bold.otf') format('opentype');
 }
     
   h1.fort {
     margin-top: 60px;
-    font-family: Burbank Big Cd Bd;
+    font-family: burbank;
     font-size: 55px;
     color: white;
     text-align: center;
@@ -19,7 +19,7 @@ html{
 }
 
 #teste{
- font-family: Burbank Big Cd Bd;   
+ font-family: burbank;   
 }
 
 #menu ul {
