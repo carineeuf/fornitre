@@ -1,10 +1,10 @@
-html{
+body {
     background: linear-gradient(to bottom, #7e57c2, #cfff95) no-repeat;
     background-size: auto;
 
 }
 
-  h1.fort {
+#fort {
     margin-top: 60px;
     font-family: BurbankBigCondensed-Bold;
     font-size: 55px;
