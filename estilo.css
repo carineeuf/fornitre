@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(to bottom, #7e57c2, #cfff95) no-repeat;
-    background-size: auto;
+    height: 100%;
 }
 
 @font-face{
@@ -83,6 +83,15 @@ p {
     padding-right: 40px;
     border: 0px;
     height: 58px;
+    text-align: center;
+}
+#espaçotituloinscrevase{
+    padding: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 0px;
+    height: 41px;
+    text-align: center;
 }
 hr{
     width: 570px;
