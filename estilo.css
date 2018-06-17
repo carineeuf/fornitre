@@ -1,12 +1,12 @@
 body {
     background: linear-gradient(to bottom, #7e57c2, #cfff95) no-repeat;
-    height: 100%;
+    background-size: auto;
 }
+
 
 @font-face{
     font-family: 'burbank';
     src: url('BurbankBigCondensed-Bold.otf') format('opentype');
-
 }
 
 #fort {
@@ -32,7 +32,6 @@ body {
     line-height: 20px;
     position: relative;
     top: -40px;
-
 }
 
 #menu ul li {
@@ -65,39 +64,44 @@ p {
     background-size: 250px;
     background-repeat: no-repeat;
 }
+
 .div{
     margin-right: auto;
     margin-left: auto;
     width: 570px;
     background-color: white;
 }
-#espacoconteudo{
+
+#espacoconteudo1{
+    padding: 40px;
+    padding-top: 10px;
+    border: 0;
+    height: auto;
+
+}
+
+#espacoconteudo2{
     padding: 40px;
     padding-top: 20px;
-    border: 0px;
+    border: 0;
     height: auto;
 }
-#espaçotitulonews{
+
+#espaçotitulo{
     padding: 0px;
     padding-left: 40px;
     padding-right: 40px;
-    border: 0px;
+    border: 0;
     height: 58px;
     text-align: center;
 }
-#espaçotituloinscrevase{
-    padding: 0px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border: 0px;
-    height: 41px;
-    text-align: center;
-}
+
 hr{
     width: 570px;
     transition: width 1s;
     display: block;
 }
+
 hr:hover{
     width: 650px;
 }
@@ -117,8 +121,3 @@ a:link{
 a:visited{
     color: white;
 }
-
-<!-- Problemas
-     tamanho do lineargradient,
-     background do título,
-     união do título e o menu   -->

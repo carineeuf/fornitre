@@ -1,16 +1,15 @@
-* {box-sizing: border-box;}
 
 .inputcelula {
     display: flex;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .icon {
     padding: 10px;
-    background: dodgerblue;
+    background: #9cff57;
     color: white;
-    min-width: 50px;
+    min-width: 35px;
     text-align: center;
 }
 
@@ -18,14 +17,15 @@
     width: 100%;
     padding: 10px;
     outline: none;
+
 }
 
-.input-field:focus {
-    border: 2px solid dodgerblue;
+.input:focus {
+    border: 1px solid #9cff57;
 }
 
 .btn {
-    background-color: dodgerblue;
+    background-color: #9cff57;
     color: white;
     padding: 15px 20px;
     border: none;
