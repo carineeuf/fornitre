@@ -1,12 +1,17 @@
 body {
     background: linear-gradient(to bottom, #7e57c2, #cfff95) no-repeat;
     background-size: auto;
+}
+
+@font-face{
+    font-family: 'burbank';
+    src: url('BurbankBigCondensed-Bold.otf') format('opentype');
 
 }
 
 #fort {
     margin-top: 60px;
-    font-family: BurbankBigCondensed-Bold;
+    font-family: burbank;
     font-size: 55px;
     color: white;
     text-align: center;
@@ -19,49 +24,81 @@ body {
     border: 0;
     list-style: none;
     text-align: center;
-    background-color: hsla(100,100%,75%,0.2);
+    background-color: hsla(100, 100%, 75%, 0.2);
     font-family: 'Syncopate', sans-serif;
     font-size: 13.5px;
     margin-left: 510px;
     margin-right: 510px;
-    line-height: 25px;
+    line-height: 20px;
     position: relative;
     top: -40px;
+
 }
 
 #menu ul li {
     display: inline-block;
     margin: 5px;
+    transition: font-size 2s;
 }
-#img {
+
+li:hover{
+    font-size: 17px;
+}
+.titulonews{
+    font-family:'Amatic SC';
+}
+p {
+    font-family: "Times New Roman";
+    align: justify;
+    text-indent: 40px;
+}
+.img {
     background-image: url(fornite-character.png);
     background-position: right bottom;
     background-size: 250px;
     background-repeat: no-repeat;
 }
 
-#img2{
+.img2{
     background-image: url("png(2).png");
     background-position: left bottom;
     background-size: 250px;
     background-repeat: no-repeat;
 }
-main.div{
+.div{
     margin-right: auto;
     margin-left: auto;
     width: 570px;
-    height: 600px;
-    padding: 0;
-    border: 0;
     background-color: white;
 }
-
-p::first-letter {
-    color: #ffeb3b;
-    font-size: 50px;
-    font-family: 'Black Han Sans';
-    font-style: oblique;
+#espacoconteudo{
+    padding: 40px;
+    padding-top: 20px;
+    border: 0px;
+    height: auto;
 }
+#espaçotitulonews{
+    padding: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 0px;
+    height: 58px;
+}
+hr{
+    width: 570px;
+    transition: width 1s;
+    display: block;
+}
+hr:hover{
+    width: 650px;
+}
+
+.titulo::first-letter {
+    color: #ffeb3b;
+    font-size: 45px;
+    font-family: 'Amatic SC';
+}
+
 
 a:link{
     color: white;
