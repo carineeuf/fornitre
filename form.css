@@ -37,3 +37,6 @@
 .btn:hover {
     opacity: 1;
 }
+html{
+	min-height: 100%;
+}
